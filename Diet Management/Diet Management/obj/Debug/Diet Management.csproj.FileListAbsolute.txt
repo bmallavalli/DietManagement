@@ -1,0 +1,11 @@
+C:\Users\Haritha\Desktop\Diet Management\Diet Management\bin\Diet Management.dll
+C:\Users\Haritha\Desktop\Diet Management\Diet Management\bin\Diet Management.pdb
+C:\Users\Haritha\Desktop\Diet Management\Diet Management\obj\Debug\Diet Management.dll
+C:\Users\Haritha\Desktop\Diet Management\Diet Management\obj\Debug\Diet Management.pdb
+C:\Users\Haritha\Desktop\Diet Management\Diet Management\obj\Debug\Diet Management.csproj.ResolveComReference.cache
+C:\Users\Haritha\Desktop\Diet Management Project_Team 2\Diet Management\Diet Management\obj\Debug\Diet Management.csproj.ResolveComReference.cache
+C:\Users\Haritha\Desktop\Diet Management Project_Team 2\Diet Management\Diet Management\obj\Debug\Diet Management.dll
+C:\Users\Haritha\Desktop\Diet Management Project_Team 2\Diet Management\Diet Management\obj\Debug\Diet Management.pdb
+C:\Users\Haritha\Desktop\Diet Management Project_Team 2\Diet Management\Diet Management\bin\Diet Management.dll
+C:\Users\Haritha\Desktop\Diet Management Project_Team 2\Diet Management\Diet Management\bin\Diet Management.pdb
+C:\Users\Haritha\Desktop\Diet Management Project_Team 2\Diet Management\Diet Management\obj\Debug\Diet Management.csprojResolveAssemblyReference.cache

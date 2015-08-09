@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head id="Head1" runat="server">
+<title>Diet Management</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css" />
+<link href="http://fonts.googleapis.com/css?family=Coda:400,800" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+   <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<form id="form1" runat="server">
+<div id="Div1">
+  <div id="Div2">
+    <h1 style="font-family: 'Times New Roman', Times, serif; font-size: 32px">Diet Management 
+        Expert System</h1>
+    <div id="nav">
+    <img src="images/header.jpg" width="735" height="200" alt="Pic" />
+      <ul>
+        <li><a href="Home.aspx">Home</a></li>
+        <li><a href="Register.aspx">Register</a></li>
+        <li><a href="Login.aspx">Login</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="Div3">
+    <div class="left-col">
+      <div id="welcome">
+        <h2 style="font-family: 'Times New Roman', Times, serif; font-size: 28px">Welcome</h2>
+        <p style="font-family: 'Times New Roman', Times, serif; font-size: 20px">Want to 
+            maintain a healthy diet???</p>
+        <p style="font-family: 'Times New Roman', Times, serif; font-size: 20px">Here is a system which will assist you to reach your personal health goal!!</p>
+      </div>
+      <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+      <h2 style="font-family: 'Times New Roman', Times, serif; font-size: 28px">Our Food Gallery...</h2>
+      <div id="gallery">
+        <div class="box">
+          <h3>01</h3>
+          <img src="images/pic_1.jpg" width="119" height="84" alt="Pic 1" />
+          <p>Fruits: Fruits are natures wonderful gift to the mankind.</p>
+          <p class="more"><a href="http://www.fruitsinfo.com/uses_of_fruits.htm">more</a></p>
+        </div>
+        <div class="box box-lit">
+          <h3>02</h3>
+          <img src="images/pic_2.jpg" width="119" height="84" alt="Pic 2" />
+          <p>Vegetables: vegetables are treated as food for the soul.</p>
+          <p class="more"><a href="http://www.nutrition-and-you.com/vegetable-nutrition.html">more</a></p>
+        </div>
+        <div class="box">
+          <h3>03</h3>
+          <img src="images/pic_3.jpg" width="119" height="84" alt="Pic 3" />
+          <p>Protein Food:Amazing group of molecules in humanbody.</p>
+          <p class="more"><a href="http://www.protnic.com/list-of-all-the-foods-high-in-protein/">more</a></p>
+        </div>
+        <div class="box box-lit">
+          <h3>04</h3>
+          <img src="images/pic_5.jpg" width="119" height="84" alt="Pic 2" />
+          <p>Diary Products: Cheese, milk's leap toward immortality.</p>
+          <p class="more"><a href="http://www.nourishinteractive.com/healthy-living/free-nutrition-articles/109-dairy-milk-products">more</a></p>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="clear"> </div>
+    <div id="later">
+      <div class="left-col">
+        <div class="clear"> </div>
+      </div>
+      <div class="clear"> </div>
+    </div>
+  </div>
+</div>
+</form>
+</body>
+</html>
